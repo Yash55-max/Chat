@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import Groq from 'groq-sdk';
+import Groq from 'groq-sdk/index.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import helmet from 'helmet';
